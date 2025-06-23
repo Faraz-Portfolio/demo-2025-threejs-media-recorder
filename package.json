@@ -1,11 +1,11 @@
 {
-  "name": "demo-template",
+  "name": "demo-2025-threejs-media-recorder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Faraz-Portfolio/demo-template"
+    "url": "https://github.com/Faraz-Portfolio/demo-2025-threejs-media-recorder"
   },
   "author": {
     "name": "Faraz Shaikh",
@@ -21,16 +21,19 @@
     "@react-three/drei": "^10.1.2",
     "@react-three/fiber": "^9.1.2",
     "react": "^19.1.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
     "three": "^0.177.0",
-    "three-stdlib": "^2.36.0"
+    "three-stdlib": "^2.36.0",
+    "tunnel-rat": "^0.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@types/three": "^0.177.0",
-    "@vitejs/plugin-basic-ssl": "^1.2.0",
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
