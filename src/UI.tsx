@@ -57,18 +57,6 @@ export function UI() {
         >
           Demos the usage of Media Recorder API to capture video of the ThreeJS
           canvas as an webm video and download it to device.
-          <a
-            href="https://github.com/FarazzShaikh/THREE-CustomShaderMaterial"
-            target="_blank"
-            style={{
-              color: "#3bb7ff",
-              textDecoration: "underline",
-              pointerEvents: "all",
-            }}
-          >
-            Three-Custom-Shader-Material
-          </a>{" "}
-          library to add the puddle shader to the road material.
         </p>
       </div>
 
