@@ -1,6 +1,6 @@
 import { useThree } from "@react-three/fiber";
 import { useLayoutEffect, useMemo, useState } from "react";
-import { isIOS } from "react-device-detect";
+import { isDesktop, isIOS } from "react-device-detect";
 import tunnel from "tunnel-rat";
 
 function downloadBlob(blob: Blob, filename: string) {
@@ -15,6 +15,11 @@ function downloadBlob(blob: Blob, filename: string) {
 }
 
 function openShareTray(blob: Blob, filename: string) {
+  if (isDesktop) {
+    downloadBlob(blob, filename);
+    return;
+  }
+
   const files = [new File([blob], filename)];
 
   if (!navigator.canShare({ files })) {
