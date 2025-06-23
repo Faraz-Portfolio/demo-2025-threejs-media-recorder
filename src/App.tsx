@@ -1,11 +1,11 @@
 import {
-  ContactShadows,
   Environment,
   OrbitControls,
   PerspectiveCamera,
   Sparkles,
 } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { ContactShadows } from "./ContactShadows";
 import { Model } from "./Model";
 import { Recorder, RecorderTunnel } from "./Recorder";
 
@@ -18,7 +18,7 @@ export default function App() {
         }}
       >
         <OrbitControls makeDefault target={[0, 1.5, 0]} />
-        <PerspectiveCamera position={[-5, 5, 5]} makeDefault />
+        <PerspectiveCamera position={[-4, 4, 4]} makeDefault />
 
         <Model />
         <Sparkles

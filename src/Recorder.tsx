@@ -105,7 +105,7 @@ export function Recorder() {
               ? "rgba(255, 0, 0, 0.5)"
               : "rgba(0, 0, 0, 0.5)",
             border: "1px solid white",
-            fontSize: "1rem",
+            fontSize: "1.5rem",
           }}
           onClick={isRecording ? onVideoStop : onVideoStart}
         >
@@ -120,7 +120,7 @@ export function Recorder() {
             cursor: "pointer",
             backgroundColor: "rgba(0, 0, 0, 0.5)",
             border: "1px solid white",
-            fontSize: "1rem",
+            fontSize: "1.5rem",
           }}
           onClick={onImage}
         >

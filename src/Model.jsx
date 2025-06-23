@@ -38,6 +38,7 @@ export function Model(props) {
                     geometry={nodes.Object_7.geometry}
                     material={materials.Stormtroopermat}
                     skeleton={nodes.Object_7.skeleton}
+                    castShadow
                   />
                   <group name="Object_6" />
                   <group name="Stormtrooper" />
